@@ -1,0 +1,5 @@
+[plugininstall]
+description=Sprachdatei und Menüs v1.7.3 von Sir SiLvA für die TC V11.00 Betas. Du mußt die Datei totalcmd.inc aus diesem Archiv selbstständig (!) in das TC Hauptverzeichnis kopieren und die alte überschreiben! Wichtig!
+type=lng
+file=wcmd_silva_deu.lng
+defaultdir=language
