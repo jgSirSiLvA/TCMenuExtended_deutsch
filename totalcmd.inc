@@ -673,7 +673,7 @@ SYNCOPEN <sync operation>=-6;Open stored sync operation
 LOADSEARCH <stored search>=-7;Open stored search operation
 OPENBAR <filename>=-8;Load button bar from file
 MULTIRENAME <operation name>=-9;Open stored multi-rename operation
-OPENCUSTOMVIEW <view name>=-10;Switch to custom columns view
+OPENCUSTOMVIEW <view name>=-10;Switch to custom columns view (supports modifiers L, R, S, T and B)
 SELECTFILES <*.ext *.ex2>=-11;Select files of specified types (supports modifiers D, B, U, L, R, T and S)
 CM_WAIT <time>=-12;Wait x milliseconds
 SAVETABS <filename>=-13;Save tabs to .tab file, active side
@@ -689,6 +689,6 @@ SAVESELECTION <filename>=-22;Save selection to file (supports modifiers A and W)
 SAVEDETAILS <filename>=-23;Save selection with all details to file (supports modifiers A, W and H)
 LOADSELECTION <filename>=-24;Load selection from file
 LOADLIST <filename>=-25;Load complete list (like search result) from file (supports modifier 0 = no error dialogs)
-ZIPFROMLIST <archive name> <filelist>=-26;Pack files from list (supports parameters -m, -o, -c0-3 and -0-9)
+ZIPFROMLIST <archive name> <filelist>=-26;Pack files from list (supports parameters -m, -o, -c0..-c3 and -0..-9)
 OPENATTRIBUTES <parameters>=-27;Change Attributes dialog: +f (subfolders), +a/-a +r/-r +h/-h +s/-s +L/+L2 +c +dDate +tTime Plugin_settings
 OPENBARMENU <filename>=-28;Open button bar file as dropdown menu

@@ -3,14 +3,14 @@ codepage=1252
 ;
 ;    ***************************************************
 ;    *     Sprachdatei für Total Commander v11.00      *
-;    *                 Version 1.7.3b                  *
+;    *                 Version 1.7.4                   *
 ;    * ----------------------------------------------- *
-;    *           Last update: 24/05/2023               *
+;    *           Last update: 31/05/2023               *
 ;    *       von Jens Grohmann (sir_silva@gmx.de)      *
 ;    ***************************************************
 ;
 ;    Letzte Änderungen:
-;	- für v11.00 beta 4 angepasst
+;	- für v11.00 beta 5 angepasst
 ;	!!! this is a work in progress !!!
 ;    
 ;    Jens 'Sir SiLvA' Grohmann
@@ -732,7 +732,7 @@ codepage=1252
 1641="Fortfahren?"
 1642="Dieses Plugin unterstützt keine benutzerdef. Spalten"
 1643="Pfade &speichern"
-1644="EINF|DEL|POS1|ENDE|BILD-HOCH|BILD-RUNTER|SPACE|BackSpace|TAB|+|-|*|/|ENTER|ESC|(LEFTfu)|(RIGHTfu)|(UP)|(DOWN)"
+1644="EINF|DEL|POS1|ENDE|BILD-HOCH|BILD-RUNTER|SPACE|BackSpace|TAB|+|-|*|/|ENTER|ESC|(LEFT)|(RIGHT)|(UP)|(DOWN)"
 1645="&Speichern"
 1646="Parameter speichern"
 1647="&Vorlagenname:"
@@ -1034,11 +1034,11 @@ codepage=1252
 2114="Media-Player-Steuerelemente: Hintergrund"
 2115="Alle &Einträge anzeigen\tALT+SHIFT+(DOWN)"
 2116="In neuem &Tab öffnen\tSHIFT+ENTER"
-2117="Im anderen &Panel öffnen\tSTRG"
+2117="Im anderen &Panel öffnen"
 2118="In neuem Tab im &anderen Panel öffnen\tSTRG+SHIFT+(UP)"
 2119="Als Pfad &kopieren\tSTRG+C"
 2120="&Verzeichnis aus Verlauf entfernen\tSHIFT+DEL"
-2121="Umgekehrte Reihenfolge (zuletzt besuchtes zuoberst)"
+2121="&Umgekehrte Reihenfolge"
 2122="Am &häufigsten verwendete Verzeichnisse anzeigen"
 2123="Ziffernblock"
 2124="Liste aller Tabs anzeigen\tSTRG+SHIFT+A"
@@ -1047,6 +1047,8 @@ codepage=1252
 2127="Verlauf &konfigurieren..."
 2128="Datei löschen:"
 2129="Aus wincmd.ini entfernen:"
+2130="Strg+Links|Strg+Rechts"
+2131="Horizontale Linien"
 
 {COMMON}
 4001="OK"
@@ -2100,6 +2102,9 @@ codepage=1252
 6716="Gleich wie Dateilisten\nGleich wie Hauptmenü\nBenutzerdefiniert..."
 6717="Vorgabe\nGleicher Ordner wie wincmd.ini\nDeaktiviert\nBenutzerdefiniert..."
 6718="Das &zuletzt benutzte Verzeichnis in der Mitte der Liste anzeigen"
+6719="Ma&x. Zeichenbreite (Durchschnitt):"
+6720="Liste sc&rollen:"
+6721="zum zuletzt besuchten Ordner\nzum am häufigsten verwendeten Ordner\nzum Anfang\nzum Ende\nzur Mitte, auf Verlauf\nzur Mitte, auf häufig verwendete Ordner"
 
 6801="Verzeichnis drucken"
 6802="&Schrift:"
