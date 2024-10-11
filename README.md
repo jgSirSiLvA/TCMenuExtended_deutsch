@@ -1,5 +1,5 @@
 # TCMenuExtended_deutsch
-meine deutschen Menu und Sprach-Dateien für den Total Commander
+meine deutschen Menu und Sprach-Dateien für den Total Commander v11.50
 
 Wichtig!
 Du mußt die Datei totalcmd.inc aus diesem Archiv selbstständig (!)
