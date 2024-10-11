@@ -2,15 +2,15 @@ sir_silva Deutsch
 codepage=1252
 ;
 ;    ***************************************************
-;    *     Sprachdatei für Total Commander v11.00      *
-;    *                 Version 1.7.4                   *
+;    *     Sprachdatei für Total Commander v11.50      *
+;    *                 Version 1.7.6                   *
 ;    * ----------------------------------------------- *
-;    *           Last update: 31/05/2023               *
+;    *           Last update: 12/10/2024               *
 ;    *       von Jens Grohmann (sir_silva@gmx.de)      *
 ;    ***************************************************
 ;
 ;    Letzte Änderungen:
-;	- für v11.00 beta 5 angepasst
+;	- für v11.50 angepasst
 ;	!!! this is a work in progress !!!
 ;    
 ;    Jens 'Sir SiLvA' Grohmann
@@ -112,7 +112,7 @@ codepage=1252
 138="Buttonbar %s wurde geändert.\nSpeichern?"
 139="&Löschen"
 140="&Ändern..."
-141="Möchten Sie, daß diese Buttonbar beim nächsten Start des Total Commander automatisch geladen und zur Haupt-Buttonbar wird?"
+141="Möchten Sie diese Buttonbar permanent machen?\nSie wird dann bei jedem Start von Total Commander geladen."
 142="Sie können den Buttonbar %s nicht zweimal zum Editieren öffnen!"
 143="Die Verknüpfung zur Endung %s wurde geändert, speichern?"
 144="Nicht registrierte Evaluationskopie."
@@ -586,7 +586,7 @@ codepage=1252
 1479="Listendatei bearbeiten"
 1480="Pause"
 1481="Start"
-1482="Max.Geschwind."
+1482="Ma&x.Geschwind."
 1483="Wollen Sie den aktuellen Transfer abbrechen und mit dem nächsten fortfahren?"
 1490="Suchen (F7)"
 1491="Weitersuchen (F3)"
@@ -607,7 +607,7 @@ codepage=1252
 1514="Wählen Sie zuerst einen Eintrag aus der Liste!"
 1515="Eintrag löschen: "
 1516="Einstellungen speichern als:"
-1517="&Rechts: Alle leeren Verzeichnisse löschen"
+1517="Rechts: &Alle leeren Verzeichnisse löschen"
 1518="Im aktiven Fenster\nIm linken Fenster\nIm rechten Fenster"
 1519="%s von %s in %s von %s Datei(en)"
 1520=" frei von "
@@ -1049,6 +1049,7 @@ codepage=1252
 2129="Aus wincmd.ini entfernen:"
 2130="Strg+Links|Strg+Rechts"
 2131="Horizontale Linien"
+2132="Nur Ordner (an/aus): Der Name [N] enthält die Erweiterung, [E] wird nicht benutzt"
 
 {COMMON}
 4001="OK"
@@ -1056,6 +1057,7 @@ codepage=1252
 4003="Hilfe"
 4004="&Hintergrund"
 4005="Warteschlange"
+4006="&Nur Fehler"
 
 {stdtreed}
 5002="&Verzeichnisbaum"
@@ -1071,6 +1073,7 @@ codepage=1252
 5027="&Verknüpfen mit:"
 5028="&Typ bearbeiten..."
 5029="Ersetzen &durch:"
+5030="&Löschen"
 
 {ATTRIBDLG}
 5041="Attribute ändern"
@@ -1416,6 +1419,7 @@ codepage=1252
 5373="Dialogboxen &automatisch an größere Schriften anpassen"
 5374="Angezeigte Dateitypen separat &pro Tab speichern"
 5375="&Parameter:"
+5376="Strg+Tab öffnet Liste der &offenen Tabs"
 
 5380="Benutzerdefinierte Spalten"
 5381="Kon&figurationen von benutzerdef. Spalten (sortieren mit Drag&&Drop):"
@@ -1502,14 +1506,14 @@ codepage=1252
 5482="Datei(en) packen in Datei:"
 5483="&Pfadnamen der Dateien mitspeichern"
 5484="U&nterverzeichnisse rekursiv speichern"
-5485="Archiv auf &mehreren Datenträgern (ZIP, ARJ, RAR, ACE)"
+5485="Archiv auf &mehreren Datenträgern (ZIP, RAR, 7ZIP, ARJ, ACE)"
 5486="&konfigurieren"
 5487="&Verzeichnisbaum"
 5488="Packer"
 5489="&In Archiv verschieben"
-5490="Erzeuge &selbstentpackendes Archiv (ZIP, ARJ, RAR, ACE)"
+5490="Erzeuge &selbstentpackendes Archiv (ZIP, RAR, 7ZIP, ARJ, ACE)"
 5491="Verschl&üsseln (ZIP, RAR)"
-;5491="Verschl&üsseln (ZIP, RAR, ACE)" // ist zu lang!
+;5491="Verschl&üsseln (ZIP, RAR, ACE, 7ZIP)" // ist zu lang!
 5492="Erzeuge separate Archive, eines &je gewählte Datei"
 5493="* braucht externen Packer"
 5494="&Beim Packen von Verzeichnissen das Basisverzeichnis weglassen"
@@ -1564,7 +1568,7 @@ codepage=1252
 5635="Komprimiert"
 5636="Verschlüsselt"
 5637="Windows-&Zeichensatz (ANSI)"
-5638="Zip-D&okumente (docx, xlsx, odt, EPUB)"
+5638="Zip-D&okumente (Docx, Xlsx, Odt, Epub)"
 
 5640="G&espeicherte Suchparameter:"
 5641="&Laden"
@@ -1808,7 +1812,7 @@ codepage=1252
 6007="Neue &URL..."
 6008="Eintrag ver&doppeln"
 6009="Verschl&üsseln..."
-6010="Neues Verzeichnis"
+6010="Neues &Verzeichnis"
 
 {Connection details}
 6011="FTP: Verbindungsdetails"
@@ -2014,6 +2018,8 @@ codepage=1252
 6288="Rechtes Kontextmenü\tALT+SHIFT+(DOWN)"
 6289="Linke Eigenschaften\tALT+Enter"
 6290="Rechte Eigenschaften\tALT+SHIFT+Enter"
+6291="Links umbenennen\tF6"
+6292="Rechts umbenennen\tShift+F6"
 
 6301="Druckoptionen"
 6302="&Fixe Breite:"
@@ -2032,7 +2038,7 @@ codepage=1252
 
 6401="Definiere Servertyp"
 6402="Definitions-&String:"
-6403="&Rohe Verzeichnisdaten vom Server:"
+6403="Verzeichnis-&Rohdaten vom Server:"
 6404="&Zusätzliche Definitionsstrings (optional, für sehr komplexe Server):"
 6405="Interpretierte Daten für markierte Zeile der Rohdaten:"
 6406="Dateiname:"
@@ -2083,13 +2089,14 @@ codepage=1252
 6629="Namen &bearbeiten..."
 6630="&Editor konfigurieren..."
 
-6700="Verlauf"
+6699="Verlauf"
+6700="Verlauf (zuletzt besuchte Ordner)"
 6701="Häufig verwendete Ordner"
 6702="&Verlauf beim Beenden speichern"
 6703="&Häufig verwendete Ordner beim Beenden speichern"
 6704="&Maximal zu speichernde Elemente:"
 6705="M&aximal zu speichernde Elemente:"
-6706="Ma&ximal anzuzeigende Elemente:"
+6706="Maximal anzuzeigende Eleme&nte:"
 6707="Max&imal anzuzeigende Elemente:"
 6708="S&chrift:"
 6709="Jetzt &speichern"
@@ -2097,7 +2104,7 @@ codepage=1252
 6711="Jetzt &löschen"
 6712="J&etzt löschen"
 6713="Speicher&ort für Liste der am häufigsten verwendeten Ordner:"
-6714="&Das meistbenutzte Verzeichnis in der Mitte anzeigen"
+6714="&Das meistbenutzte Verzeichnis in der Mitte der Liste anzeigen"
 6715="S&ymbole"
 6716="Gleich wie Dateilisten\nGleich wie Hauptmenü\nBenutzerdefiniert..."
 6717="Vorgabe\nGleicher Ordner wie wincmd.ini\nDeaktiviert\nBenutzerdefiniert..."
@@ -2105,6 +2112,25 @@ codepage=1252
 6719="Ma&x. Zeichenbreite (Durchschnitt):"
 6720="Liste sc&rollen:"
 6721="zum zuletzt besuchten Ordner\nzum am häufigsten verwendeten Ordner\nzum Anfang\nzum Ende\nzur Mitte, auf Verlauf\nzur Mitte, auf häufig verwendete Ordner"
+
+6750="7Zip-Packer"
+6751="&7Zip-Packer:"
+6752="Benutze internen 7Zip-&Packer"
+6753="7Zip-Plugin &bevorzugen, falls installiert"
+6754="7Zip-Kompression"
+6755="Kompressionseinstellungen"
+6756="K&ompressionmethode:"
+6757="Wörterbuch&größe:"
+6758="&Wortgröße:"
+6759="Solides Archiv erstellen"
+6760="So&lidblockgröße:"
+6761="Anzahl &CPU-Threads:"
+6762="E&xtra-Parameter:"
+6763="Speicherbedarf"
+6764="für Komprimierung:"
+6765="für Dekomprimierung:"
+6766="Verschlüsselungsoptionen"
+6767="A&uch Namen verschlüsseln"
 
 6801="Verzeichnis drucken"
 6802="&Schrift:"

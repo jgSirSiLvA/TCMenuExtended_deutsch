@@ -1,14 +1,14 @@
 ;    *******************************************************
-;    *   Menu für Total Commander v11.00 mit (fast) allen  *
+;    *   Menu für Total Commander v11.50 mit (fast) allen  *
 ;    *   internen Commandos und allen Standard-ShortCuts   *
-;    *                    Version 1.7.3b                   *
+;    *                    Version 1.7.6                    *
 ;    * --------------------------------------------------- *
-;    *              Last changed: 17/05/2023               *
+;    *              Last changed: 12/10/2024               *
 ;    *         von Jens Grohmann (sir_silva@gmx.de)        *
 ;    *******************************************************
 ;
 ;    Letzte Änderungen:
-;     - Neuheiten der Version 11.00 beta 3 eingebaut
+;     - Neuheiten der Version 11.50 eingebaut
 ;
 ;    Am Ende dieser Menu-Datei gibts den auskommentierten Menu-Punkt
 ;    'Unbenutzt' der alle Befehle enthält die nicht sinnvoll eingebaut
@@ -107,7 +107,7 @@ POPUP "&Befehle"
     MENUITEM "Cursor auf vorherige markierte Datei setzen", cm_GotoPrevSelected
     MENUITEM SEPARATOR
     MENUITEM "Schnellsuche (mit letztem Filter)", cm_ShowQuickSearch
-    MENUITEM "Schnellsuche (Filter an)", cm_QuickFilter    
+    MENUITEM "Schnellsuche (Filter an)", cm_QuickFilter
     MENUITEM "Schnellsuche (Filter aus)", cm_QuickSearch
     MENUITEM SEPARATOR
     MENUITEM "Suchen...\tALT+F7", cm_SearchFor
@@ -119,7 +119,7 @@ POPUP "&Befehle"
     MENUITEM "Verzeichnisfavoritenliste anzeigen\tSTRG+D", cm_DirectoryHotlist
     MENUITEM SEPARATOR
     MENUITEM "Ver&zeichnisverlauf anzeigen\tALT+(DOWN)", cm_DirectoryHistory
-    MENUITEM "Verzeichnisverlauf anzeigen (ungefiltert)", cm_DirectoryHistoryNoThinning
+    MENUITEM "Verzeichnisverlauf anzeigen (ungefiltert)\tSHIFT+ALT+(DOWN)", cm_DirectoryHistoryNoThinning
     MENUITEM SEPARATOR
     MENUITEM "Buttonbar fokussieren\tALT+SHIFT+F11", cm_FocusButtonBar
     MENUITEM "vertikale Buttonbar fokussieren", cm_FocusButtonBarVertical
@@ -164,9 +164,9 @@ POPUP "V&erzeichnisnavigation"
     MENUITEM "&Vorwärts zum vorherigen Verzeichnis\tALT+(RIGHT)", cm_GotoNextDir
     MENUITEM "Zurück zum letzten lokalen Verzeichnis", cm_GotoPreviousLocalDir
     MENUITEM "Vorwärts zum vorherigen lokalen Verzeichnis", cm_GotoNextLocalDir
-    MENUITEM "Markiertes Verzeichnis &oder markiertes Archiv öffnen\tSTRG+PAGEDOWN", cm_GoToDir
-    MENUITEM "&Markiertes Verzeichnis im linken Dateifenster öffnen\tSTRG+(LEFT)", cm_TransferLeft
-    MENUITEM "Markiertes Verzeichnis im rechten Dateifenster öffnen\tSTRG+(RIGHT)", cm_TransferRight
+    MENUITEM "Verzeichnis &oder Archiv öffnen\tSTRG+PAGEDOWN", cm_GoToDir
+    MENUITEM "Verzeichnis im linken Dateifenster öffnen\tSTRG+(LEFT)", cm_TransferLeft
+    MENUITEM "Verzeichnis im rechten Dateifenster öffnen\tSTRG+(RIGHT)", cm_TransferRight
     MENUITEM SEPARATOR
     MENUITEM "zum &nächsten Laufwerk", cm_GotoNextDrive
     MENUITEM "zum vorherigen Laufwerk", cm_GotoPreviousDrive
@@ -448,6 +448,7 @@ POPUP "&Optionen"
     MENUITEM SEPARATOR
     MENUITEM "Pa&cker...", cm_PackerConfig
     MENUITEM "   &ZIP Packer...", cm_ZipPackerConfig
+;	MENUITEM "   &7ZIP Packer...", - waiting on cmd! - 
     MENUITEM SEPARATOR
     MENUITEM "&Diverses (u. a. Tastenkombinationen)...", cm_Confirmation
     MENUITEM SEPARATOR
@@ -567,7 +568,7 @@ END_POPUP
 
 STARTMENU
 
-POPUP "&Info"
+POPUP "H&ilfe"
     MENUITEM "&Index\tF1", cm_HelpIndex
     MENUITEM "&Registrier-Info", cm_Register
     MENUITEM "&Tastaturbelegung", cm_Keyboard
@@ -576,8 +577,8 @@ POPUP "&Info"
     MENUITEM "Interne &Befehle anzeigen", cm_CommandBrowser
     MENUITEM SEPARATOR
     MENUITEM "Auf &Update prüfen", cm_CheckForUpdates
-    MENUITEM "&Homepage besuchen", cm_VisitHomepage
-    MENUITEM "Über den Total-&Commander...", cm_About
+    MENUITEM "Website besuc&hen", cm_VisitHomepage
+    MENUITEM "Über Total-&Commander...", cm_About
 
 END_POPUP
 
