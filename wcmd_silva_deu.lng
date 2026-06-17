@@ -2,15 +2,16 @@ sir_silva Deutsch
 codepage=1252
 ;
 ;    ***************************************************
-;    *     Sprachdatei für Total Commander v11.50      *
-;    *                 Version 1.7.6                   *
+;    *     Sprachdatei für Total Commander v11.58      *
+;    *                 Version 1.7.12                  *
 ;    * ----------------------------------------------- *
-;    *           Last update: 12/10/2024               *
+;    *           Last update: 17/06/2026               *
 ;    *       von Jens Grohmann (sir_silva@gmx.de)      *
 ;    ***************************************************
 ;
 ;    Letzte Änderungen:
-;	- für v11.50 angepasst
+;	- für v11.58 angepasst
+
 ;	!!! this is a work in progress !!!
 ;    
 ;    Jens 'Sir SiLvA' Grohmann
@@ -280,7 +281,7 @@ codepage=1252
 1149="Verzeichnismenü ändern"
 1150="Verzeichnis&menü:"
 1151="Netzwerkumgebung"
-1152="Zielpfad:"
+1152="&Zielpfad:"
 1153="Suche..."
 1154="Möchten Sie eine selbstentpackende ZIP-Datei anlegen?"
 
@@ -567,8 +568,8 @@ codepage=1252
 1456="Diese Funktion kann nicht auf Verzeichnisse angewendet werden!"
 1457="CRC-Datei(en) speichern unter:"
 1458="Erzeuge CRC-Prüfsummendatei"
-1459="Erzeuge &separate Prüfsummendateien für jede Datei"
-1460="Bitte nur SFV-, MD5- oder SHA-Dateien auswählen!"
+1459="&Erzeuge separate Prüfsummendateien für jede Datei"
+1460="Bitte nur SFV-, MD5- oder SHA-Dateien wählen!"
 1461="CRC FALSCH:"
 1462="OK:"
 1463="Fehler:"
@@ -707,8 +708,8 @@ codepage=1252
 1616="Alle älteren und gleich alten überschreiben"
 1617="Alle &größeren kopieren (kleinere überschreiben)"
 1618="Alle k&leineren kopieren (größere überschreiben)"
-1619="Aktuelle Verzeichnisse und Optionen in Liste aufnehmen"
-1620="Markierten Eintrag aus Liste löschen"
+1619="Aktuelle Verzeichnisse und Optionen in Liste aufnehmen..."
+1620="Markierten Eintrag aus Liste löschen..."
 1621="Kann nur gespeicherte FTP-Verbindungen hinzufügen!"
 1622="Sync-Optionen speichern (Asymmetrisch, Unterverz. usw.)"
 1623="Anzeigeoptionen speichern (->, <-, doppelte usw.)"
@@ -1050,6 +1051,13 @@ codepage=1252
 2130="Strg+Links|Strg+Rechts"
 2131="Horizontale Linien"
 2132="Nur Ordner (an/aus): Der Name [N] enthält die Erweiterung, [E] wird nicht benutzt"
+2133="Zu&letzt besuchte Tabs am Anfang anzeigen\tStrg+L"
+2134="unbegrenzt"
+2135="Zul&etzt besuchte am Anfang"
+2136="Strg+Tab zum zul&etzt besuchten wechseln"
+2137="Verzeichnis %s nicht gefunden!"
+2138="Diese Schriftart verwendet nicht den ASCII/DOS-Zeichensatz. Möchten Sie den Zeichensatz manuell auf ASCII/DOS einstellen?"
+2139="Logging:\nVerschlüsselte Namen"
 
 {COMMON}
 4001="OK"
@@ -1111,8 +1119,8 @@ codepage=1252
 5073="&Icon:"
 5074="&Tooltip:"
 5075="Bar einfügen >>"
-5076="Als S&ymbol"
-5077="&maximiert"
+5076="minimiert ausfü&hren"
+5077="&maximiert ausführen"
 5078="Aussehen"
 5079="Flache Icons"
 5080="Kleine Icons"
@@ -1253,6 +1261,7 @@ codepage=1252
 5213="Überschreiben/Löschen von &schreibgeschützten Dateien"
 5214="Überschreiben/Löschen von &versteckten und Systemdateien"
 5215="&Drag&&Drop (Ziehen und Fallenlassen)"
+5216="Drag&&Drop auf den Button 'F&8 Löschen'"
 5217=" Zusätzliche Packer "
 5218="Packer-WCXs:"
 5219="Packer-Erweiterungen &konfigurieren..."
@@ -1282,7 +1291,7 @@ codepage=1252
 5243="ande&res:"
 5244="Weitere Einstellungen"
 5245="Benutze &8.3-Dateinamen"
-5246="ZIP-Dat&um=das der neuesten Datei"
+5246="Archiv-Dat&um=das der neuesten Datei (7-Zip, ACE, LHA, RAR)"
 5247="Erzeuge &TAR-Archive für Linux (nicht markiert: für SunOS)"
 5248="&Öffne partielle ZIP-Dateien"
 5249="&Behalte defekte Dateien (CRC-Fehler)"
@@ -1506,14 +1515,14 @@ codepage=1252
 5482="Datei(en) packen in Datei:"
 5483="&Pfadnamen der Dateien mitspeichern"
 5484="U&nterverzeichnisse rekursiv speichern"
-5485="Archiv auf &mehreren Datenträgern (ZIP, RAR, 7ZIP, ARJ, ACE)"
+5485="Archiv auf &mehreren Datenträgern (7-ZIP, ACE, ARJ, RAR, ZIP)"
 5486="&konfigurieren"
 5487="&Verzeichnisbaum"
 5488="Packer"
 5489="&In Archiv verschieben"
-5490="Erzeuge &selbstentpackendes Archiv (ZIP, RAR, 7ZIP, ARJ, ACE)"
+5490="Erzeuge &selbstentpackendes Archiv (7-ZIP, ACE, ARJ, RAR, ZIP)"
 5491="Verschl&üsseln (ZIP, RAR)"
-;5491="Verschl&üsseln (ZIP, RAR, ACE, 7ZIP)" // ist zu lang!
+;5491="Verschl&üsseln (7-ZIP, ACE, RAR, ZIP)" // ist zu lang!
 5492="Erzeuge separate Archive, eines &je gewählte Datei"
 5493="* braucht externen Packer"
 5494="&Beim Packen von Verzeichnissen das Basisverzeichnis weglassen"
@@ -1719,6 +1728,7 @@ codepage=1252
 5877="&Filter herunterladen..."
 5878="&Zusätzliche Irfanview/Xnview-Dateitypen:"
 5879="Zu&sätzliche Multimedia-Dateitypen:"
+5880="Alte &nicht skalierbare Standardschriftarten verwenden"
 
 {NASTYNAGSCREEN}
 5881="Total Commander Version"
@@ -1736,6 +1746,7 @@ codepage=1252
 5893="&Update-Information"
 
 {LISTER}
+5909="Im &Standard-Browser öffnen"
 5910="&Datei"
 5911="&Öffnen..."
 5912="&Nächste Datei"
@@ -1938,7 +1949,7 @@ codepage=1252
 6166="&Mehr Unterregeln"
 6167="W&eniger Unterregeln"
 6168="&Diesen Modus setzen:"
-6169="Verzeichnisverlauf ausdünnen"
+6169="Verzeichnisverla&uf ausdünnen"
 6170="Extra-Zeilen unterhalb Cursor:"
 6171="&Dunkelmodus:"
 6172="Immer deaktiviert\nImmer aktiviert\nNur wenn für Windows 10-Apps aktiviert"
@@ -2113,15 +2124,15 @@ codepage=1252
 6720="Liste sc&rollen:"
 6721="zum zuletzt besuchten Ordner\nzum am häufigsten verwendeten Ordner\nzum Anfang\nzum Ende\nzur Mitte, auf Verlauf\nzur Mitte, auf häufig verwendete Ordner"
 
-6750="7Zip-Packer"
-6751="&7Zip-Packer:"
-6752="Benutze internen 7Zip-&Packer"
-6753="7Zip-Plugin &bevorzugen, falls installiert"
-6754="7Zip-Kompression"
+6750="7-Zip-Packer"
+6751="&7-Zip-Packer:"
+6752="Benutze internen 7-Zip-&Packer"
+6753="7-Zip-Plugin &bevorzugen, falls installiert"
+6754="7-Zip-Kompression"
 6755="Kompressionseinstellungen"
 6756="K&ompressionmethode:"
 6757="Wörterbuch&größe:"
-6758="&Wortgröße:"
+6758="Wor&tgröße:"
 6759="Solides Archiv erstellen"
 6760="So&lidblockgröße:"
 6761="Anzahl &CPU-Threads:"

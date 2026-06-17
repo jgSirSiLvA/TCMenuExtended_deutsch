@@ -1,14 +1,14 @@
 ;    *******************************************************
-;    *   Menu für Total Commander v11.50 mit (fast) allen  *
+;    *   Menu für Total Commander v11.58 mit (fast) allen  *
 ;    *   internen Commandos und allen Standard-ShortCuts   *
-;    *                    Version 1.7.6                    *
+;    *                   Version 1.7.12                    *
 ;    * --------------------------------------------------- *
-;    *              Last changed: 12/10/2024               *
+;    *              Last changed: 17/06/2026               *
 ;    *         von Jens Grohmann (sir_silva@gmx.de)        *
 ;    *******************************************************
 ;
 ;    Letzte Änderungen:
-;     - Neuheiten der Version 11.50 eingebaut
+;     - Neuheiten der Version 11.57 eingebaut
 ;
 ;    Am Ende dieser Menu-Datei gibts den auskommentierten Menu-Punkt
 ;    'Unbenutzt' der alle Befehle enthält die nicht sinnvoll eingebaut
@@ -448,7 +448,7 @@ POPUP "&Optionen"
     MENUITEM SEPARATOR
     MENUITEM "Pa&cker...", cm_PackerConfig
     MENUITEM "   &ZIP Packer...", cm_ZipPackerConfig
-;	MENUITEM "   &7ZIP Packer...", - waiting on cmd! - 
+    MENUITEM "   &7-ZIP Packer...", cm_7ZipPackerConfig
     MENUITEM SEPARATOR
     MENUITEM "&Diverses (u. a. Tastenkombinationen)...", cm_Confirmation
     MENUITEM SEPARATOR
