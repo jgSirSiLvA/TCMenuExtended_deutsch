@@ -5,8 +5,8 @@ codepage=1252
 ;    *     Sprachdatei für Total Commander v11.58      *
 ;    *                 Version 1.7.12                  *
 ;    * ----------------------------------------------- *
-;    *           Last update: 17/06/2026               *
-;    *       von Jens Grohmann (sir_silva@gmx.de)      *
+;    *           Last update: 05/07/2026               *
+;    *                von Jens Grohmann                *
 ;    ***************************************************
 ;
 ;    Letzte Änderungen:
@@ -1057,7 +1057,6 @@ codepage=1252
 2136="Strg+Tab zum zul&etzt besuchten wechseln"
 2137="Verzeichnis %s nicht gefunden!"
 2138="Diese Schriftart verwendet nicht den ASCII/DOS-Zeichensatz. Möchten Sie den Zeichensatz manuell auf ASCII/DOS einstellen?"
-2139="Logging:\nVerschlüsselte Namen"
 
 {COMMON}
 4001="OK"
