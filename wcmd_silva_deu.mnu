@@ -1,9 +1,9 @@
 ;    *******************************************************
 ;    *   Menu für Total Commander v11.58 mit (fast) allen  *
 ;    *   internen Commandos und allen Standard-ShortCuts   *
-;    *                   Version 1.7.12                    *
+;    *                   Version 1.7.13                    *
 ;    * --------------------------------------------------- *
-;    *              Last changed: 17/06/2026               *
+;    *              Last changed: 29/07/2026               *
 ;    *                  von Jens Grohmann                  *
 ;    *******************************************************
 ;
@@ -463,10 +463,11 @@ POPUP "&Optionen"
     MENUITEM "Ignorierlistendatei aus-/einschalten", cm_SwitchIgnoreList
     MENUITEM SEPARATOR
     MENUITEM "Alle Plugins deakti&vieren", cm_UnloadPlugins
-    MENUITEM "Packer Plugins deaktivieren", em_UnloadPlugins1
-    MENUITEM "File System Plugins deaktivieren", em_UnloadPlugins2
-    MENUITEM "Lister Plugins deaktivieren", em_UnloadPlugins4
-    MENUITEM "Content Plugins deaktivieren", em_UnloadPlugins8
+    MENUITEM "Packer-Plugins deaktivieren", em_UnloadPlugins1
+    MENUITEM "FileSystem-Plugins deaktivieren", em_UnloadPlugins2
+    MENUITEM "Lister-Plugins deaktivieren", em_UnloadPlugins4
+    MENUITEM "Inhalts-Plugins deaktivieren", em_UnloadPlugins8
+    MENUITEM "QuickSearch deaktivieren", em_UnloadPlugins16
 END_POPUP
 
 POPUP "&Ansicht"
