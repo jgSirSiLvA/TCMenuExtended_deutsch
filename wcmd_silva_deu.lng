@@ -2,19 +2,17 @@ sir_silva Deutsch
 codepage=1252
 ;
 ;    ***************************************************
-;    *     Sprachdatei für Total Commander v11.58      *
-;    *                 Version 1.7.12                  *
+;    *    Sprachdatei für Total Commander v11.58.1     *
+;    *                 Version 1.7.13                  *
 ;    * ----------------------------------------------- *
-;    *           Last update: 05/07/2026               *
+;    *           Last update: 29.10.2026               *
 ;    *                von Jens Grohmann                *
 ;    ***************************************************
 ;
 ;    Letzte Änderungen:
-;	- für v11.58 angepasst
-
+;	1539="Diesen Tab verdoppeln\tSTRG+T" -> 1539="Diesen Tab verdoppeln\tSTRG+SHIFT+T" siehe https://www.ghisler.ch/board/viewtopic.php?f=36&t=88048
+;
 ;	!!! this is a work in progress !!!
-;    
-;    Jens 'Sir SiLvA' Grohmann
 ;
 0="Zugriff verweigert auf Zieldatei\n%s!"
 1="Dateiarten eingeben (z.B. *.doc;*.txt)"
@@ -627,7 +625,7 @@ codepage=1252
 1536="&Auch das Zielverzeichnis speichern"
 1537="Verlauf (ALT+(DOWN))"
 1538="Verzeichnisliste (STRG+D)"
-1539="Diesen Tab verdoppeln\tSTRG+T"
+1539="Diesen Tab verdoppeln\tSTRG+SHIFT+T"
 1540="Diesen Tab schliessen\tSTRG+W"
 1541="Alle Tabs schliessen\tSTRG+SHIFT+W"
 1542="Tab in anderes Panel kopieren"

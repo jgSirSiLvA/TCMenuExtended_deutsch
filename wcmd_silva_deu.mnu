@@ -1,20 +1,20 @@
 ;    *******************************************************
-;    *   Menu für Total Commander v11.58 mit (fast) allen  *
+;    *  Menu für Total Commander v11.58.1 mit (fast) allen *
 ;    *   internen Commandos und allen Standard-ShortCuts   *
-;    *                   Version 1.7.13                    *
+;    *                   Version 1.7.14                    *
 ;    * --------------------------------------------------- *
-;    *              Last changed: 29/07/2026               *
+;    *              Last changed: 29/10/2026               *
 ;    *                  von Jens Grohmann                  *
 ;    *******************************************************
 ;
 ;    Letzte Änderungen:
-;     - Neuheiten der Version 11.58 eingebaut
+;     - Neuheiten der Version 11.58.1 eingebaut
 ;
 ;    Am Ende dieser Menu-Datei gibts den auskommentierten Menu-Punkt
 ;    'Unbenutzt' der alle Befehle enthält die nicht sinnvoll eingebaut
 ;    werden konnten, da es diese Funktionen schon anderweitig gibt.
 ;
-;    Für Hinweise bei (Rechtschreib-)Fehlern und fehlenden ShortCuts bin ich dankbar .-)
+;    Für Hinweise bei (Rechtschreib-)Fehlern und fehlenden ShortCuts bin ich sehr dankbar .-)
 ;
 ;    Jens 'Sir SiLvA' Grohmann
 ;
