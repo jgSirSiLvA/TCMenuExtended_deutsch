@@ -3,14 +3,14 @@ codepage=1252
 ;
 ;    ***************************************************
 ;    *    Sprachdatei für Total Commander v11.58.1     *
-;    *                 Version 1.7.13                  *
+;    *                 Version 1.7.14                  *
 ;    * ----------------------------------------------- *
 ;    *           Last update: 29.10.2026               *
 ;    *                von Jens Grohmann                *
 ;    ***************************************************
 ;
 ;    Letzte Änderungen:
-;	1539="Diesen Tab verdoppeln\tSTRG+T" -> 1539="Diesen Tab verdoppeln\tSTRG+SHIFT+T" siehe https://www.ghisler.ch/board/viewtopic.php?f=36&t=88048
+;	1539="Diesen Tab verdoppeln\tSTRG+T" -> 1539="Diesen Tab verdoppeln\tSTRG+SHIFT+T" siehe https://www.ghisler.ch/board/viewtopic.php?f=36&t=88048 WTF!!!
 ;
 ;	!!! this is a work in progress !!!
 ;
@@ -625,7 +625,7 @@ codepage=1252
 1536="&Auch das Zielverzeichnis speichern"
 1537="Verlauf (ALT+(DOWN))"
 1538="Verzeichnisliste (STRG+D)"
-1539="Diesen Tab verdoppeln\tSTRG+SHIFT+T"
+1539="Diesen Tab verdoppeln\tSTRG+SHIFT+T !!!"
 1540="Diesen Tab schliessen\tSTRG+W"
 1541="Alle Tabs schliessen\tSTRG+SHIFT+W"
 1542="Tab in anderes Panel kopieren"
